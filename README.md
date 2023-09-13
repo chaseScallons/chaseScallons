@@ -10,7 +10,7 @@
   </div>
   <img src="https://komarev.com/ghpvc/?username=chaseScallons&style=flat-square&color=blue" alt=""/>
   <h1>
-    Welcome to my profile !
+    Welcome to my profile!
     <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
   </h1>
   <div align="center">
@@ -20,17 +20,27 @@
 
 ---
 
-### :man_technologist:
-
-I am a rising engineer from Dallas, TX excited to be nested at the intersection of software, AI, and data <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">.
-
-- :telescope: I’m a senior at The Univserity of Texas at Dallas pursuing a BS in Computer Science with a dual specialization in Aritifical Intelligence and Cybersecurity.
-
-- :seedling: Exploring applcations of rising information techologies in the electric utilities industry.
-
-- :zap: In my free time, I'm either practicing calisthenics, studying philosophy, or hacking together software designs.
-
-- :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-kakbar-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/chasescallons)
+📍 **Location**: Dallas, TX  
+🔍 **Passion**: Nestled at the intersection of software, AI, and data <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">.
+<br>
+<br>
+👨‍💻 About Me:  
+I'm a dedicated engineer, deeply passionate about the endless possibilities at the convergence of software, artificial intelligence, and data.
+<br>
+<br>
+🎓 Education:  
+Currently, I'm a senior at The University of Texas at Dallas, pursuing a BS in Computer Science. My focus is on dual specializations in Artificial Intelligence and Cybersecurity.
+<br>
+<br>
+🔌 Industry Interest:  
+I'm keen on exploring the applications of emerging information technologies within the electric utilities industry.
+<br>
+<br>
+🎈 Beyond Code:  
+In my leisure, you can find me:  
+- 🤸‍♂️ Mastering calisthenics moves.  
+- 📖 Delving deep into philosophical texts.  
+- 💡 Hacking together innovative software designs.
 
 ---
 
@@ -58,7 +68,7 @@ I am a rising engineer from Dallas, TX excited to be nested at the intersection 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=chaseScallons&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
 
 <div id="footer" align="center">
-  <h1>Thanks for visiting !</h1>
+  <h1>Thanks for visiting!</h1>
 </div>
 
 
