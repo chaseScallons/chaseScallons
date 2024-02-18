@@ -20,23 +20,23 @@
 
 ---
 
-📍 **Location**: Dallas, TX  
-🔍 **Passion**: Nestled at the intersection of software, AI, and data <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">.
+**Location**: Dallas, TX  
+**Interests**: Nestled at the intersection of software, AI, and data <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">.
 <br>
 <br>
-👨‍💻 About Me:  
+About Me:  
 I'm a dedicated engineer, deeply passionate about the endless possibilities at the convergence of software, artificial intelligence, and data.
 <br>
 <br>
-🎓 Education:  
+Education:  
 Currently, I'm a senior at The University of Texas at Dallas, pursuing a BS in Computer Science. My focus is on dual specializations in Artificial Intelligence and Cybersecurity.
 <br>
 <br>
-🔌 Industry Interest:  
+Industry Interest:  
 I'm keen on exploring the applications of emerging information technologies within the electric utilities industry.
 <br>
 <br>
-🎈 Beyond Code:  
+Beyond Code:  
 In my leisure, you can find me:  
 - 🤸‍♂️ Mastering calisthenics moves.  
 - 📖 Delving deep into philosophical texts.  
