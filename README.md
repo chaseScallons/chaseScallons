@@ -21,7 +21,7 @@
 ---
 
 **Location:** Dallas, TX  
-**Interests**: AI Research & Engineering | Physical Reasoning | Planning | Control <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">.
+**Interests**: AI Research & Engineering | Physical Reasoning | Planning | Control
 <br>
 <br>
 **About Me:**  
