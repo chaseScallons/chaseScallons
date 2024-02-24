@@ -28,7 +28,7 @@ About Me:
 I'm a dedicated engineer, deeply passionate about the endless possibilities at the convergence of software, artificial intelligence, and data.
 <br>
 <br>
-Education:  
+<b>Education:</b>  
 Bachelor of Science in Computer Science | The University of Texas at Dallas
 <br>
 <br>
