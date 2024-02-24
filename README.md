@@ -20,20 +20,20 @@
 
 ---
 
-**Location**: Dallas, TX  
-**Interests**: Nestled at the intersection of software, AI, and data <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">.
+**Location:** Dallas, TX  
+**Interests**: AI Research & Engineering | Physical Reasoning | Planning | Control <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">.
 <br>
 <br>
-About Me:  
-I'm a dedicated engineer, deeply passionate about the endless possibilities at the convergence of software, artificial intelligence, and data.
+**About Me:**  
+
 <br>
 <br>
-<b>Education:</b>  
+**Education:** 
 Bachelor of Science in Computer Science | The University of Texas at Dallas
 <br>
 <br>
-Industry Interest:  
-I'm keen on exploring the applications of emerging information technologies within the electric utilities industry.
+**Collaboration:**  
+Im am keen on developing interfaces and toolkits to streamline the interaction mechanisms that AI models like GPT-4 use to solve problems in their environment.
 <br>
 <br>
 Beyond Code:  
