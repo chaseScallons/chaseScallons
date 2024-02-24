@@ -23,22 +23,28 @@
 **Location:** Dallas, TX
 <br>
 <br>
+
 **Interests**: AI Research & Engineering | Physical Reasoning | Planning | Control
 <br>
 <br>
+
 **About Me:**  
 <br>
 <br>
+
 **Education:** 
 Bachelor of Science in Computer Science | The University of Texas at Dallas
 <br>
 <br>
+
 **Collaboration:**  
 Im am keen on developing interfaces and toolkits to streamline the interaction mechanisms that AI models like GPT-4 use to solve problems in their environment.
 <br>
 <br>
-Beyond Code:  
-In my leisure, you can find me:  
+
+**Beyond Code:**
+When I'm not arguing with a language model, you can find me:
+
 -   
 -  
 - 
