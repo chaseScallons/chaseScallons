@@ -39,9 +39,9 @@ Im am keen on developing interfaces and toolkits to streamline the interaction m
 <br>
 Beyond Code:  
 In my leisure, you can find me:  
-- 🤸‍♂️ Mastering calisthenics moves.  
-- 📖 Delving deep into philosophical texts.  
-- 💡 Hacking together innovative software designs.
+-   
+-  
+- 
 
 ---
 
@@ -63,13 +63,11 @@ In my leisure, you can find me:
 ---
 
 ### :fire: My Stats :
-
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=chaseScallons&theme=dark&background=000000)](https://git.io/streak-stats)
-
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=chaseScallons&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
 
 <div id="footer" align="center">
-  <h1>Thanks for visiting!</h1>
+  <h1>Let's collaborate and build the future together!</h1>
 </div>
 
 
