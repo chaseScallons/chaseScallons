@@ -20,12 +20,13 @@
 
 ---
 
-**Location:** Dallas, TX  
+**Location:** Dallas, TX
+<br>
+<br>
 **Interests**: AI Research & Engineering | Physical Reasoning | Planning | Control
 <br>
 <br>
 **About Me:**  
-
 <br>
 <br>
 **Education:** 
