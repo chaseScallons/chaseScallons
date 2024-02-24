@@ -67,7 +67,7 @@ In my leisure, you can find me:
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=chaseScallons&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
 
 <div id="footer" align="center">
-  <h1>Let's collaborate and build the future together!</h1>
+  <h1>Let's collaborate and build the future together! Thank you.</h1>
 </div>
 
 
