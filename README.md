@@ -29,7 +29,7 @@ I'm a dedicated engineer, deeply passionate about the endless possibilities at t
 <br>
 <br>
 Education:  
-Currently, I'm a senior at The University of Texas at Dallas, pursuing a BS in Computer Science. My focus is on dual specializations in Artificial Intelligence and Cybersecurity.
+Bachelor of Science in Computer Science | The University of Texas at Dallas
 <br>
 <br>
 Industry Interest:  
