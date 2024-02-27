@@ -5,7 +5,7 @@ Im here to create.
 – DevOps/MlOps/everything-esleOps Automation tools (Orchestration & Monitoring tools specifically)
 – Dynamic Multi-Agent Interaction
 – Reinforcement Learning from Human Feedback (RLAIF)
-- Physics-Informed Neural Nets (Spatial/Temporal/Material Reasoning)
+– Physics-Informed Neural Nets (Spatial/Temporal/Material Reasoning)
 
 Research Interests:
 I have compiled a distinct collection of what I belive to be the the necessary building blocks for any proposed "general intelligence" system. This collection is constantly evolving as my understanding of AI deepens.
