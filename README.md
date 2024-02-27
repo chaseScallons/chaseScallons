@@ -1,6 +1,6 @@
 Im here to create.
 
- **Practical Interests:**
+ **Interests:**
 - Cloud Native/IoT/Web Application Development
 - DevOps/MLOps/everything-esleOps Automation tools (Orchestration & Monitoring tools specifically)
 - Dynamic Multi-Agent Interaction
@@ -8,7 +8,7 @@ Im here to create.
 - Reinforcement Learning from Human Feedback (RLAIF)
 - Recursive Self-Improvement (RSI)
 
-**Research Interests:**
+**Research:**
 <br>
 I have compiled a comprehensive collection of what I belive to be the the necessary building blocks for any proposed "general intelligence" system. This collection is constantly evolving as my understanding of AI deepens.
 
