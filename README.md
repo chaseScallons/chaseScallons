@@ -4,12 +4,13 @@ Im here to create.
 - Cloud Native/IoT/Web Application Development
 - DevOps/MLOps/everything-esleOps Automation tools (Orchestration & Monitoring tools specifically)
 - Dynamic Multi-Agent Interaction
-- Reinforcement Learning from Human Feedback (RLAIF)
 - Physics-Informed Neural Nets (Spatial/Temporal/Material Reasoning)
+- Reinforcement Learning from Human Feedback (RLAIF)
+- Recursive Self-Improvement (RSI)
 
 **Research Interests:**
 <br>
-I have compiled a distinct collection of what I belive to be the the necessary building blocks for any proposed "general intelligence" system. This collection is constantly evolving as my understanding of AI deepens.
+I have compiled a comprehensive collection of what I belive to be the the necessary building blocks for any proposed "general intelligence" system. This collection is constantly evolving as my understanding of AI deepens.
 
 *Perception* – *Language* – *Reasoning* – *Knowledge* – *Learning* – *Control*
 
