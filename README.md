@@ -2,7 +2,7 @@ Im here to create.
 
  **Practical Interests:**
 - Cloud Native/IoT/Web Application Development
-- DevOps/MlOps/everything-esleOps Automation tools (Orchestration & Monitoring tools specifically)
+- DevOps/MLOps/everything-esleOps Automation tools (Orchestration & Monitoring tools specifically)
 - Dynamic Multi-Agent Interaction
 - Reinforcement Learning from Human Feedback (RLAIF)
 - Physics-Informed Neural Nets (Spatial/Temporal/Material Reasoning)
