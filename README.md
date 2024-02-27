@@ -8,6 +8,7 @@ Im here to create.
 - Physics-Informed Neural Nets (Spatial/Temporal/Material Reasoning)
 
 **Research Interests:**
+<br>
 I have compiled a distinct collection of what I belive to be the the necessary building blocks for any proposed "general intelligence" system. This collection is constantly evolving as my understanding of AI deepens.
 
 – Perception
