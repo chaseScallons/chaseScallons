@@ -10,7 +10,7 @@ Im here to create.
 
 **Research:**
 <br>
-I have compiled a comprehensive collection of what I belive to be the the necessary building blocks for any proposed "general intelligence" system. This collection is constantly evolving as my understanding of AI deepens.
+I have compiled a comprehensive collection of what I belive to be the the necessary building blocks for any proposed "general intelligence" system. This collection is constantly evolving as my understanding of AI widens and deepens.
 
 *Perception* – *Language* – *Reasoning* – *Knowledge* – *Learning* – *Control*
 
