@@ -5,160 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog | Chase Scallons</title>
 
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+    <meta name="description" content="Essays, research notes, and technical reflections on software, data, intelligence, engineering, finance, and emerging technologies.">
 
-        html {
-            scroll-behavior: smooth;
-        }
-
-        body {
-            background-color: #0f1117;
-            color: #e6e6e6;
-            font-family: Inter, Arial, sans-serif;
-            line-height: 1.7;
-        }
-
-        nav {
-            position: sticky;
-            top: 0;
-            background-color: rgba(15,17,23,0.95);
-            backdrop-filter: blur(10px);
-            border-bottom: 1px solid #242938;
-            z-index: 100;
-        }
-
-        .nav-container {
-            max-width: 1000px;
-            margin: auto;
-            padding: 18px 32px;
-            display: flex;
-            gap: 24px;
-            flex-wrap: wrap;
-        }
-
-        .nav-container a {
-            color: #b8bcc8;
-            text-decoration: none;
-        }
-
-        .nav-container a:hover {
-            color: #7aa2ff;
-        }
-
-        .container {
-            max-width: 1000px;
-            margin: auto;
-            padding: 80px 32px;
-        }
-
-        h1 {
-            font-size: 4rem;
-            font-weight: 700;
-            letter-spacing: -2px;
-        }
-
-        .headline {
-            color: #7aa2ff;
-            font-size: 1.1rem;
-            margin-top: 12px;
-            margin-bottom: 24px;
-            font-weight: 500;
-        }
-
-        .intro {
-            color: #b8bcc8;
-            max-width: 800px;
-            font-size: 1.05rem;
-        }
-
-        section {
-            margin-top: 80px;
-        }
-
-        h2 {
-            font-size: 1.8rem;
-            margin-bottom: 24px;
-            color: white;
-        }
-
-        .post {
-            background: #151922;
-            border: 1px solid #242938;
-            border-radius: 12px;
-            padding: 24px;
-            margin-bottom: 20px;
-        }
-
-        .post h3 {
-            margin-bottom: 10px;
-            color: white;
-        }
-
-        .post p {
-            color: #b8bcc8;
-            margin-bottom: 12px;
-        }
-
-        .meta {
-            color: #8c92a4;
-            font-size: 0.95rem;
-        }
-
-        .tags {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            margin-top: 16px;
-        }
-
-        .tag {
-            padding: 6px 12px;
-            border-radius: 999px;
-            background: #0f1117;
-            border: 1px solid #242938;
-            color: #d4d7de;
-            font-size: 0.9rem;
-        }
-
-        footer {
-            margin-top: 80px;
-            border-top: 1px solid #242938;
-            padding-top: 32px;
-            color: #8c92a4;
-        }
-
-        @media (max-width: 768px) {
-            h1 {
-                font-size: 2.8rem;
-            }
-
-            .container {
-                padding: 48px 24px;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
 <nav>
     <div class="nav-container">
+
         <a href="index.html">Home</a>
         <a href="projects.html">Projects</a>
         <a href="resume.html">Resume</a>
         <a href="research.html">Research</a>
         <a href="blog.html">Blog</a>
         <a href="contact.html">Contact</a>
+
     </div>
 </nav>
 
 <div class="container">
 
     <header>
+
         <h1>Blog</h1>
 
         <p class="headline">
@@ -166,130 +35,246 @@
         </p>
 
         <p class="intro">
-            Notes, essays, and technical reflections on software engineering,
-            artificial intelligence, data systems, markets, research,
-            and the future of intelligent technology.
+            A collection of essays, observations,
+            research notes, and technical reflections
+            exploring software engineering,
+            artificial intelligence,
+            economics,
+            systems thinking,
+            and the future of technology.
         </p>
+
     </header>
 
     <section>
-        <h2>Featured Writing</h2>
+
+        <h2>Featured Essays</h2>
 
         <div class="post">
+
             <h3>Intelligence Requires Architecture</h3>
 
             <p class="meta">
-                Topic: AI, cognition, systems thinking
+                Intelligence • Systems Thinking • AI
             </p>
 
             <p>
-                A high-IQ mind without structure is like an overpowered processor
-                with no operating system. Intelligence becomes useful when it is
-                organized into repeatable systems for perception, judgment,
-                decision-making, and execution.
+                A high-IQ mind without structure is like an overpowered
+                processor with no operating system.
+                Fast. Capable. Unstable.
+                Architecture transforms intelligence into leverage.
             </p>
 
             <div class="tags">
+
                 <span class="tag">Intelligence</span>
                 <span class="tag">Architecture</span>
                 <span class="tag">AI</span>
+
             </div>
+
         </div>
 
         <div class="post">
-            <h3>How I Think About Software Systems</h3>
 
-            <p class="meta">
-                Topic: software engineering, systems design
-            </p>
-
-            <p>
-                Software is not only code. It is structure, behavior, data,
-                interfaces, constraints, and feedback loops working together
-                to produce reliable outcomes.
-            </p>
-
-            <div class="tags">
-                <span class="tag">Software</span>
-                <span class="tag">System Design</span>
-                <span class="tag">Engineering</span>
-            </div>
-        </div>
-
-        <div class="post">
-            <h3>Why Data Platforms Matter</h3>
-
-            <p class="meta">
-                Topic: data engineering, analytics, infrastructure
-            </p>
-
-            <p>
-                Every serious organization depends on its ability to collect,
-                structure, move, analyze, and act on information. Data platforms
-                are the operational memory of modern institutions.
-            </p>
-
-            <div class="tags">
-                <span class="tag">Data Engineering</span>
-                <span class="tag">Analytics</span>
-                <span class="tag">Infrastructure</span>
-            </div>
-        </div>
-
-        <div class="post">
             <h3>Markets as Information Systems</h3>
 
             <p class="meta">
-                Topic: finance, exchanges, market design
+                Finance • Economics • Information Theory
             </p>
 
             <p>
-                Markets are not just places where assets are bought and sold.
-                They are information systems that aggregate beliefs, incentives,
-                risk, liquidity, and expectations into prices.
+                Markets are not simply mechanisms for exchange.
+                They are systems that aggregate information,
+                incentives, expectations, and risk into prices.
             </p>
 
             <div class="tags">
+
                 <span class="tag">Markets</span>
+                <span class="tag">Economics</span>
                 <span class="tag">Finance</span>
-                <span class="tag">Information Systems</span>
+
             </div>
+
         </div>
+
+        <div class="post">
+
+            <h3>Software Is Organized Thought</h3>
+
+            <p class="meta">
+                Software Engineering • Systems Design
+            </p>
+
+            <p>
+                Software is not merely code.
+                It is the formal expression of logic,
+                constraints, objectives,
+                and human intent.
+            </p>
+
+            <div class="tags">
+
+                <span class="tag">Software</span>
+                <span class="tag">Engineering</span>
+                <span class="tag">Systems</span>
+
+            </div>
+
+        </div>
+
     </section>
 
     <section>
-        <h2>Future Topics</h2>
+
+        <h2>Research Notes</h2>
 
         <div class="post">
-            <h3>AI Engineering</h3>
+
+            <h3>Artificial Intelligence</h3>
+
             <p>
-                Notes on LLM applications, agents, retrieval systems,
-                memory, evaluation, and AI product architecture.
+                Notes exploring language models,
+                agent architectures,
+                memory systems,
+                reasoning,
+                and intelligence augmentation.
             </p>
+
         </div>
 
         <div class="post">
-            <h3>Career Engineering</h3>
+
+            <h3>Financial Systems</h3>
+
             <p>
-                Reflections on resumes, interviews, job search systems,
-                professional positioning, and technical growth.
+                Observations on market structure,
+                valuation,
+                incentives,
+                exchanges,
+                and economic behavior.
             </p>
+
         </div>
 
         <div class="post">
+
             <h3>Sports Intelligence</h3>
+
             <p>
-                Ideas on athlete valuation, performance analytics,
-                digital sports markets, and sports data infrastructure.
+                Research into athlete valuation,
+                performance analytics,
+                forecasting,
+                and sports markets.
             </p>
+
         </div>
+
+    </section>
+
+    <section>
+
+        <h2>Writing Themes</h2>
+
+        <div class="skills">
+
+            <span class="skill">Artificial Intelligence</span>
+            <span class="skill">Software Engineering</span>
+            <span class="skill">Data Engineering</span>
+            <span class="skill">Economics</span>
+            <span class="skill">Finance</span>
+            <span class="skill">Sports Analytics</span>
+            <span class="skill">Systems Thinking</span>
+            <span class="skill">Human Intelligence</span>
+            <span class="skill">Research</span>
+            <span class="skill">Technology</span>
+
+        </div>
+
+    </section>
+
+    <section>
+
+        <h2>Upcoming Essays</h2>
+
+        <div class="post">
+
+            <h3>The Operating System of Human Intelligence</h3>
+
+            <p>
+                Exploring executive functions,
+                cognition,
+                planning,
+                and decision-making.
+            </p>
+
+        </div>
+
+        <div class="post">
+
+            <h3>The Architecture of AI Engineering</h3>
+
+            <p>
+                Understanding how modern AI systems are built,
+                deployed,
+                and scaled.
+            </p>
+
+        </div>
+
+        <div class="post">
+
+            <h3>Why Data Creates Power</h3>
+
+            <p>
+                Examining the relationship between information,
+                decision-making,
+                and institutional capability.
+            </p>
+
+        </div>
+
+        <div class="post">
+
+            <h3>The Future of Digital Exchanges</h3>
+
+            <p>
+                Investigating how technology reshapes
+                ownership,
+                markets,
+                and value creation.
+            </p>
+
+        </div>
+
+    </section>
+
+    <section>
+
+        <h2>Purpose</h2>
+
+        <div class="card">
+
+            <p>
+                This blog serves as a public record of ideas,
+                research,
+                technical learning,
+                and long-term exploration.
+                The objective is not merely to document knowledge,
+                but to develop clearer models of reality through writing.
+            </p>
+
+        </div>
+
     </section>
 
     <footer>
+
         <p>
-            Writing is used here as a public record of thinking,
-            learning, building, and technical exploration.
+            Thinking • Research • Building
         </p>
+
     </footer>
 
 </div>
