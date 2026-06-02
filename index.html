@@ -1,200 +1,303 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chase Scallons</title>
 
-    <style>
+```
+<style>
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
-        body {
-            background-color: #0f1117;
-            color: #e6e6e6;
-            font-family: Inter, Arial, sans-serif;
-            line-height: 1.7;
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        background-color: #0f1117;
+        color: #e6e6e6;
+        font-family: Inter, Arial, sans-serif;
+        line-height: 1.7;
+    }
+
+    .container {
+        max-width: 900px;
+        margin: auto;
+        padding: 80px 32px;
+    }
+
+    nav {
+        position: sticky;
+        top: 0;
+        background-color: rgba(15,17,23,0.95);
+        backdrop-filter: blur(10px);
+        border-bottom: 1px solid #242938;
+        z-index: 100;
+    }
+
+    .nav-container {
+        max-width: 900px;
+        margin: auto;
+        padding: 18px 32px;
+        display: flex;
+        gap: 24px;
+    }
+
+    .nav-container a {
+        color: #b8bcc8;
+        text-decoration: none;
+        transition: color 0.2s ease;
+    }
+
+    .nav-container a:hover {
+        color: #7aa2ff;
+        text-decoration: none;
+    }
+
+    h1 {
+        font-size: 4rem;
+        font-weight: 700;
+        letter-spacing: -2px;
+    }
+
+    .headline {
+        color: #7aa2ff;
+        font-size: 1.1rem;
+        margin-top: 12px;
+        margin-bottom: 24px;
+        font-weight: 500;
+    }
+
+    .intro {
+        color: #b8bcc8;
+        max-width: 700px;
+        font-size: 1.05rem;
+    }
+
+    .hero-actions {
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+        margin-top: 32px;
+    }
+
+    .button {
+        display: inline-block;
+        padding: 12px 18px;
+        border-radius: 10px;
+        border: 1px solid #242938;
+        background: #151922;
+        color: #e6e6e6;
+        text-decoration: none;
+        transition: all 0.2s ease;
+    }
+
+    .button:hover {
+        border-color: #7aa2ff;
+        color: #7aa2ff;
+        text-decoration: none;
+    }
+
+    section {
+        margin-top: 80px;
+    }
+
+    h2 {
+        margin-bottom: 24px;
+        font-size: 1.8rem;
+        color: white;
+    }
+
+    .project {
+        padding: 24px;
+        margin-bottom: 20px;
+        border: 1px solid #242938;
+        border-radius: 12px;
+        background: #151922;
+    }
+
+    .project h3 {
+        margin-bottom: 8px;
+    }
+
+    .project p {
+        color: #b8bcc8;
+    }
+
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .skill {
+        padding: 8px 14px;
+        background: #151922;
+        border: 1px solid #242938;
+        border-radius: 999px;
+        color: #d4d7de;
+    }
+
+    .links {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    a {
+        color: #7aa2ff;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    footer {
+        margin-top: 80px;
+        color: #8c92a4;
+        border-top: 1px solid #242938;
+        padding-top: 32px;
+    }
+
+    @media (max-width: 768px) {
+
+        h1 {
+            font-size: 2.8rem;
         }
 
         .container {
-            max-width: 900px;
-            margin: auto;
-            padding: 80px 32px;
+            padding: 48px 24px;
         }
 
-        h1 {
-            font-size: 4rem;
-            font-weight: 700;
-            letter-spacing: -2px;
-        }
-
-        .headline {
-            color: #7aa2ff;
-            font-size: 1.1rem;
-            margin-top: 12px;
-            margin-bottom: 24px;
-            font-weight: 500;
-        }
-
-        .intro {
-            color: #b8bcc8;
-            max-width: 700px;
-            font-size: 1.05rem;
-        }
-
-        section {
-            margin-top: 80px;
-        }
-
-        h2 {
-            margin-bottom: 24px;
-            font-size: 1.8rem;
-            color: white;
-        }
-
-        .project {
-            padding: 24px;
-            margin-bottom: 20px;
-            border: 1px solid #242938;
-            border-radius: 12px;
-            background: #151922;
-        }
-
-        .project h3 {
-            margin-bottom: 8px;
-        }
-
-        .project p {
-            color: #b8bcc8;
-        }
-
-        .skills {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 12px;
-        }
-
-        .skill {
-            padding: 8px 14px;
-            background: #151922;
-            border: 1px solid #242938;
-            border-radius: 999px;
-            color: #d4d7de;
-        }
-
-        .links {
-            display: flex;
-            gap: 20px;
+        .nav-container {
             flex-wrap: wrap;
         }
 
-        a {
-            color: #7aa2ff;
-            text-decoration: none;
-        }
+    }
 
-        a:hover {
-            text-decoration: underline;
-        }
+</style>
+```
 
-        footer {
-            margin-top: 80px;
-            color: #8c92a4;
-        }
-
-    </style>
 </head>
 <body>
 
+<nav>
+    <div class="nav-container">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#links">Links</a>
+    </div>
+</nav>
+
 <div class="container">
 
-    <header>
+```
+<header>
 
-        <h1>Chase Scallons</h1>
+    <h1>Chase Scallons</h1>
 
-        <p class="headline">
-            Software | Data | Intelligence
+    <p class="headline">
+        Software | Data | Intelligence
+    </p>
+
+    <p class="intro">
+        Engineer focused on software systems,
+        data platforms, and intelligent applications.
+    </p>
+
+    <div class="hero-actions">
+        <a href="#projects" class="button">View Projects</a>
+        <a href="assets/documents/chase_scallons_resume.pdf" class="button">
+            Resume
+        </a>
+    </div>
+
+</header>
+
+<section id="projects">
+
+    <h2>Projects</h2>
+
+    <div class="project">
+        <h3>Athlete Exchange</h3>
+        <p>
+            Digital marketplace exploring athlete valuation,
+            performance analytics, and sports intelligence.
         </p>
+    </div>
 
-        <p class="intro">
-            Engineer focused on software systems,
-            data platforms, and intelligent applications.
+    <div class="project">
+        <h3>AI Research Engine</h3>
+        <p>
+            Research analysis platform for collecting,
+            organizing, and exploring scientific literature.
         </p>
+    </div>
 
-    </header>
+    <div class="project">
+        <h3>Financial Analytics Platform</h3>
+        <p>
+            Financial intelligence platform supporting
+            analysis, reporting, and decision making.
+        </p>
+    </div>
 
-    <section>
+</section>
 
-        <h2>Projects</h2>
+<section id="skills">
 
-        <div class="project">
-            <h3>Athlete Exchange</h3>
-            <p>
-                Digital marketplace exploring athlete valuation,
-                performance analytics, and sports intelligence.
-            </p>
-        </div>
+    <h2>Skills</h2>
 
-        <div class="project">
-            <h3>AI Research Engine</h3>
-            <p>
-                Research analysis platform for collecting,
-                organizing, and exploring scientific literature.
-            </p>
-        </div>
+    <div class="skills">
 
-        <div class="project">
-            <h3>Financial Analytics Platform</h3>
-            <p>
-                Financial intelligence platform supporting
-                analysis, reporting, and decision making.
-            </p>
-        </div>
+        <span class="skill">Python</span>
+        <span class="skill">SQL</span>
+        <span class="skill">JavaScript</span>
+        <span class="skill">Artificial Intelligence</span>
+        <span class="skill">Data Engineering</span>
+        <span class="skill">Cloud Computing</span>
+        <span class="skill">System Design</span>
 
-    </section>
+    </div>
 
-    <section>
+</section>
 
-        <h2>Skills</h2>
+<section id="links">
 
-        <div class="skills">
+    <h2>Links</h2>
 
-            <span class="skill">Python</span>
-            <span class="skill">SQL</span>
-            <span class="skill">JavaScript</span>
-            <span class="skill">Artificial Intelligence</span>
-            <span class="skill">Data Engineering</span>
-            <span class="skill">Cloud Computing</span>
-            <span class="skill">System Design</span>
+    <div class="links">
 
-        </div>
+        <a href="https://github.com/chaseScallons" target="_blank">
+            GitHub
+        </a>
 
-    </section>
+        <a href="https://www.linkedin.com/in/chasecscallons" target="_blank">
+            LinkedIn
+        </a>
 
-    <section>
+        <a href="assets/documents/chase_scallons_resume.pdf">
+            Resume
+        </a>
 
-        <h2>Links</h2>
+    </div>
 
-        <div class="links">
+</section>
 
-            <a href="#">GitHub</a>
-            <a href="#">LinkedIn</a>
-            <a href="#">Resume</a>
+<footer>
 
-        </div>
+    Open to opportunities involving software engineering,
+    data engineering, AI, and intelligent systems.
 
-    </section>
-
-    <footer>
-
-        Open to opportunities involving software engineering,
-        data engineering, AI, and intelligent systems.
-
-    </footer>
+</footer>
+```
 
 </div>
 

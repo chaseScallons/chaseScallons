@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Chase Scallons</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: #0f1117;
+            color: #e6e6e6;
+            font-family: Inter, Arial, sans-serif;
+            line-height: 1.7;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            background-color: rgba(15,17,23,0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid #242938;
+            z-index: 100;
+        }
+
+        .nav-container {
+            max-width: 900px;
+            margin: auto;
+            padding: 18px 32px;
+            display: flex;
+            gap: 24px;
+            flex-wrap: wrap;
+        }
+
+        .nav-container a {
+            color: #b8bcc8;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        .nav-container a:hover {
+            color: #7aa2ff;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 80px 32px;
+        }
+
+        h1 {
+            font-size: 4rem;
+            font-weight: 700;
+            letter-spacing: -2px;
+        }
+
+        .headline {
+            color: #7aa2ff;
+            font-size: 1.1rem;
+            margin-top: 12px;
+            margin-bottom: 24px;
+            font-weight: 500;
+        }
+
+        .intro {
+            color: #b8bcc8;
+            max-width: 700px;
+            font-size: 1.05rem;
+        }
+
+        section {
+            margin-top: 80px;
+        }
+
+        h2 {
+            margin-bottom: 24px;
+            font-size: 1.8rem;
+            color: white;
+        }
+
+        .card {
+            padding: 24px;
+            margin-bottom: 20px;
+            border: 1px solid #242938;
+            border-radius: 12px;
+            background: #151922;
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            color: #b8bcc8;
+        }
+
+        .contact-grid {
+            display: grid;
+            gap: 20px;
+        }
+
+        .contact-link {
+            color: #7aa2ff;
+            text-decoration: none;
+            word-break: break-word;
+        }
+
+        .contact-link:hover {
+            text-decoration: underline;
+        }
+
+        .availability {
+            color: #d4d7de;
+        }
+
+        footer {
+            margin-top: 80px;
+            color: #8c92a4;
+            border-top: 1px solid #242938;
+            padding-top: 32px;
+        }
+
+        @media (max-width: 768px) {
+
+            h1 {
+                font-size: 2.8rem;
+            }
+
+            .container {
+                padding: 48px 24px;
+            }
+
+            .nav-container {
+                flex-wrap: wrap;
+            }
+
+        }
+
+    </style>
+</head>
+<body>
+
+<nav>
+    <div class="nav-container">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</nav>
+
+<div class="container">
+
+    <header>
+
+        <h1>Contact</h1>
+
+        <p class="headline">
+            Software | Data | Intelligence
+        </p>
+
+        <p class="intro">
+            Interested in discussing software engineering,
+            data engineering, artificial intelligence,
+            cloud infrastructure, consulting, or collaboration opportunities.
+        </p>
+
+    </header>
+
+    <section>
+
+        <h2>Professional Profiles</h2>
+
+        <div class="contact-grid">
+
+            <div class="card">
+                <h3>LinkedIn</h3>
+                <p>
+                    Connect professionally and view my experience,
+                    projects, and career updates.
+                </p>
+
+                <br>
+
+                <a
+                    class="contact-link"
+                    href="https://www.linkedin.com/in/chasecscallons"
+                    target="_blank">
+                    linkedin.com/in/chasecscallons
+                </a>
+            </div>
+
+            <div class="card">
+                <h3>GitHub</h3>
+                <p>
+                    Explore source code, experiments,
+                    technical projects, and software development work.
+                </p>
+
+                <br>
+
+                <a
+                    class="contact-link"
+                    href="https://github.com/chaseScallons"
+                    target="_blank">
+                    github.com/chaseScallons
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section>
+
+        <h2>Contact Information</h2>
+
+        <div class="card">
+
+            <h3>Email</h3>
+
+            <p>
+                For professional inquiries, opportunities,
+                consulting discussions, or collaboration.
+            </p>
+
+            <br>
+
+            <a
+                class="contact-link"
+                href="mailto:chasescallons1@gmail.com">
+                chasescallons1@gmail.com
+            </a>
+
+        </div>
+
+    </section>
+
+    <section>
+
+        <h2>Availability</h2>
+
+        <div class="card">
+
+            <p class="availability">
+                Open to opportunities involving:
+            </p>
+
+            <br>
+
+            <ul style="margin-left: 20px; color: #b8bcc8;">
+
+                <li>Software Engineering</li>
+                <li>AI Engineering</li>
+                <li>Data Engineering</li>
+                <li>Cloud Engineering</li>
+                <li>Technical Consulting</li>
+                <li>Systems Engineering</li>
+
+            </ul>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <p>
+            © 2026 Chase Scallons
+        </p>
+
+        <br>
+
+        <a href="index.html">
+            Return Home
+        </a>
+
+    </footer>
+
+</div>
+
+</body>
+</html>
