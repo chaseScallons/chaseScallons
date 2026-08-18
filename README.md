@@ -1,2 +1,3 @@
-# chasescallons-com
-Personal Domain
+# chasescallons.com
+
+Static academic portfolio.
